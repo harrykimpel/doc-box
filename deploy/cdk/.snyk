@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-CC-TF-95:
+    - 'DocBoxStack.template.json > Resources[DocumentBucketAE41E5A9] > Properties > PublicAccessBlockConfiguration > BlockPublicAcls':
+        reason: None Given
+        expires: 2023-02-26T14:01:04.317Z
+        created: 2023-01-27T14:01:04.321Z
+patch: {}
