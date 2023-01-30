@@ -30,6 +30,10 @@ $ yarn build
 Execute the tests separately:
 ```bash
 $ yarn test
+
+$ npm install -g aws-cdk
+$ cdk synth
+$ snyk iac test cdk.out [--report] --policy-path=.snyk --severity-threshold=high
 ```
 
 #### Audit of dependencies
